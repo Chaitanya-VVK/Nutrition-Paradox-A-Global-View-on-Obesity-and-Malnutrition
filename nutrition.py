@@ -19,8 +19,8 @@ using WHO public health data (2012–2022).
 def get_connection():
     return mysql.connector.connect(
         host="localhost",
-        user="root",
-        password="0998",
+        user="your user name",
+        password="your ped",
         database="nutrition_db"
     )
 
